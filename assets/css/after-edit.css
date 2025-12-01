@@ -1,0 +1,377 @@
+font-col{
+     color: #86838c !important;
+}
+
+.gallery-back{
+     background-image: url('../primebus-images/background.png');
+     /* background-position: center; */
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.footer-img{
+     width: 535px !important;
+}
+
+.background-shape{
+     opacity: 0.1;
+}
+
+.service-details__icon img{
+     width: 60px !important;
+}
+
+.service-details__points-icon{
+     background-color: #df5f41;
+}
+
+.fleet-mar{
+     padding-top: 60px !important;
+}
+
+.black-fleet{
+     background: #1c1b1f;
+}
+
+.black-fleet ul li{
+     color: #fff;
+}
+
+.icon-confirmation{
+     color: #df5f41;
+     font-size: 30px;
+}
+
+.fleet-icon{
+     display: flex;
+     margin-bottom: 20px;
+     align-items: center;
+     gap: 10px;
+}
+
+.fleet-icon p{
+     font-size: 18px;
+     font-weight: 500 !important;
+     color: #6c6b6f;
+}
+
+.textt p{
+     color: #b6b6b6 !important;
+}
+
+/* Default (home screen) */
+.logo {
+  margin-top: 30px !important;
+  transition: all 0.3s ease;
+}
+
+/* Sticky version */
+.stricky-header .logo,
+.stricky-header .main-menu-three__logo {
+  margin-top: 20px !important;
+}
+
+.stricky-header .logo img {
+  width: 160px;
+  transition: all 0.3s ease;
+}
+/* style="display: flex; gap: 10px; margin-bottom: 10px;" */
+/* style="display: flex; align-items: center; gap: 10px; margin-left: 40px;" */
+.terms-head{
+     display:flex;
+     gap: 10px;
+     margin-bottom: 10px;
+}
+
+.terms-point{
+     display: flex;
+     align-items: self-start;
+     gap: 10px;
+     margin-left: 40px;
+     margin-bottom: 10px;
+}
+
+.service-details__text-1{
+     margin-bottom: 20px;
+}
+
+.accrodion-contentt{
+     display: flex;
+     align-items: center;
+     gap: 20px;
+     padding: 0px 20px;
+}
+.process{
+     /* margin-bottom: 100px; */
+}
+
+.about-two__left .section-title {
+  margin-bottom: 30px;
+}
+
+.contact-details__list{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.process__title{
+     font-size: 22px !important;
+}
+
+.about-threee{
+     padding-bottom: 0px !important;
+}
+
+.counterr{
+     margin: 60px 0px !important;
+}
+
+.about-threee{
+     padding: 60px 0px 0px !important;
+}
+
+.services-three__singleee{
+     margin-bottom: 90px !important;
+}
+
+.why-contet{
+     padding: 20px 0px 0px;
+}
+
+@media(max-width:767px){
+     .text-just{
+          text-align: justify;
+     }
+     .service-details {
+          position: relative;
+          display: block;
+          padding: 50px 0 90px !important;
+     }
+     .contact-mobile{
+          display: none;
+     }
+     .about-three{
+          padding: 50px 0px 50px !important;
+     }
+     .logo img{
+          margin-top: -10px;
+     }
+     .about-three-img-3 img{
+          width: 350% !important;
+     }
+     .about-three__right{
+          margin-top: 0px !important;
+     }
+     .services-three{
+          padding: 50px 0px 0px !important;
+     }
+     .project-three{
+          padding: 50px 0px 100px !important;
+     }
+     .process{
+          padding: 50px 0px 0px !important;
+          margin-bottom: 0px;
+     }
+     .project-one{
+          padding: 50px 0px 100px !important;
+     }.section-title__title{
+          font-size: 26px !important;
+     }
+     .cta-one__inner{
+          padding: 30px 0px !important;
+     }
+     .cta-one__title{
+          font-size: 35px !important;
+     }
+
+
+     /* About Us */
+
+     .bread{
+          display: none !important;
+     }
+     .page-header{
+          padding: 30px 0px 40px !important;
+     }
+     .page-header__inner h2 {
+          font-size: 35px !important;
+     }
+     .about-two{
+          padding: 50px 0px !important;
+     }
+
+     .section-title{
+          margin-bottom: 0px !important;
+     }
+
+     .about-two__left .section-title{
+          padding-bottom: -30px !important;
+     }
+     .testimonial-two{
+          padding: 50px 0px 110px !important;
+     }
+     .tex-cen{
+          text-align: center !important;
+     }
+     .counter-one__left-content img{
+          margin-left: 110px;
+     }
+     .counter-one__left-content{
+          padding: 20px !important;
+     }
+     .counter-one__count-box{
+          justify-content: center;
+     }
+     .counter-one__text{
+          display: flex;
+          justify-content: center;
+     }
+     .img-cen{
+          text-align: center !important;
+          font-size: 35px;
+     }
+     .counter-one__count-box h3{
+          font-size: 35px !important;
+     }
+     .counter-one__count-box span{
+          font-size: 35px !important;
+     }
+
+     /* Service Detail */
+
+     .service-details__content-title{
+          font-size: 30px !important;
+          margin-bottom: 5px !important;
+     }
+     .service-details__text-2{
+          font-size: 18px !important;
+     }
+     .service-details__points li{
+          align-items: center !important;
+     }
+     .service-details__points-content p{
+          text-align: center !important;
+     }
+     .service-details__benefits-title{
+          font-size: 25px !important;
+     }
+     .service-details{
+          margin-bottom: -70px !important;
+     }
+     .services-page{
+          padding: 50px 0px 30px !important;
+     }
+     .service-details__points-content p{
+          font-size: 18px !important;
+     }
+
+
+     /* Fleet */
+
+     .fleet-mar{
+          padding-top: 70px 0px -40px !important;
+          margin-bottom: 0px !important;
+     }
+     .about-one{
+          padding: 50px 0px 10px !important;
+     }
+     .fleet-mar-1{
+          margin-top: 0px !important;
+     }
+     .about-one__satisfied-content{
+          right: 30px;
+     }
+     .fleet-icon p{
+          font-size: 17px !important;
+          font-weight: 600 !important;
+     }
+
+     /* Clients */
+
+     .faq-one{
+          padding: 50px 0px !important;
+     }
+
+     /* Gallery */
+
+     .gallery-page{
+          padding: 50px 0px !important;
+     }
+
+     /* terms and Condition */
+
+     .work-details{
+          padding: 0px 0px 50px !important;
+     }
+     .work-details__title{
+          font-size: 27px !important;
+     }
+
+     /* Contact */
+
+     .contact-details{
+          padding: 50px 0px 70px !important;
+     }
+     .contact-details__list{
+          display: flex !important;
+          align-items: center !important;
+          justify-content: space-around !important;
+     }
+     .gap-con{
+          margin-bottom: 20px !important;
+     }
+     .section-sub-title-box{
+          margin-left: 0px !important;
+     }
+     .section-title__titlee{
+          margin-bottom: 20px !important;
+     }
+     .section-title__title{
+          margin-bottom: 10px !important;
+     }
+     .section-title__title-home-service{
+          margin-bottom: 90px !important;
+     }
+     .section-title__title-fleet{
+          margin-bottom: 50px !important;
+     }
+
+     .logoo{
+          margin-left: -10px !important;
+     }
+
+
+     .process__title{
+          font-size: 19px !important;
+     }
+
+     .home-service{
+          margin-bottom: 40px;
+     }
+
+     .why-contet{
+          display: none;
+     }
+}
+
+@media(min-width:967px){
+     .cont-phone{
+          display: none;
+     }
+     .why-contet{
+          display: block;
+          padding: 20px 0px 0px;
+     }
+}
+
+.logoo{
+     width: 145px;
+     margin-top: 30px;
+}
+.logoo img{
+     width: 100%;
+}
+
+
+
